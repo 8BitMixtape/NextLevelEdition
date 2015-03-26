@@ -1,0 +1,37 @@
+
+menu.cpu=Processor
+
+##############################################################
+
+fiov3.name=8BitMixtape NextLevelShit 3.3V/8MHz
+fiov3.build.board=AVR_FIOV3
+fiov3.build.vid.0=0x1B4F
+fiov3.build.pid.0=0xF100
+fiov3.build.vid.1=0x1B4F
+fiov3.build.pid.1=0xF101
+
+fiov3.upload.tool=avrdude
+fiov3.upload.protocol=avr109
+fiov3.upload.maximum_size=28672
+fiov3.upload.speed=57600
+fiov3.upload.disable_flushing=true
+fiov3.upload.use_1200bps_touch=true
+fiov3.upload.wait_for_upload_port=true
+
+fiov3.bootloader.low_fuses=0xff
+fiov3.bootloader.high_fuses=0xd8
+fiov3.bootloader.extended_fuses=0xfe
+fiov3.bootloader.file=caterina/Caterina-fio.hex
+fiov3.bootloader.unlock_bits=0x3F
+fiov3.bootloader.lock_bits=0x2F
+
+fiov3.build.mcu=atmega32u4
+fiov3.build.f_cpu=8000000L
+fiov3.build.vid=0x1B4F
+fiov3.build.pid=0xF101
+fiov3.build.usb_product="SparkFun Fio v3"
+fiov3.build.core=arduino:arduino
+fiov3.build.variant=promicro
+fiov3.build.extra_flags={build.usb_flags}
+
+
