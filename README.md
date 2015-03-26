@@ -34,11 +34,13 @@ Pins:
 2 x Analog Input
 ----------------
 A0 ( you can also only write 0) -> D18
+
 A1 ( you can also only write 1) -> D19
 
 2 x Digital Input / Buttons
 ---------------------------
 D2
+
 D3
 
 Sound Output
@@ -48,8 +50,10 @@ D9 (9) also connected to LED2
 LEDs
 ----
 D13 (13)
+
 the middle i don't know. maybe charge state?
 
 RX (0)
+
 TX (1)
 
