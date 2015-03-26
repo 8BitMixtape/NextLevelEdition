@@ -39,9 +39,9 @@ A1 ( you can also only write 1) -> D19
 
 2 x Digital Input / Buttons
 ---------------------------
-D2
+D2 (2)
 
-D3
+D3 (3)
 
 Sound Output
 ------------
@@ -56,4 +56,11 @@ the middle i don't know. maybe charge state?
 RX (0)
 
 TX (1)
+
+Timers
+============
+
+To change the prescaler of the timer connected to Pin9 (sound output)
+
+TCCR1B = TCCR0B & 0b11111001; //no timer pre-scaler, fast PWM
 
