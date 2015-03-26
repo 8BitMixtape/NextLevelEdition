@@ -14,8 +14,8 @@ http://forum.arduino.cc/index.php?topic=217910.0
 /etc/udev/rules.d/70-persistent-net.rules
 
  # 8Bit Mixtape NextLevel Shit
- ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="f100", ENV{ID_MM_DEVICE_IGNORE}="1"
- ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="f101", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="f100", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="f101", ENV{ID_MM_DEVICE_IGNORE}="1"
 
 
 Troubleshooting
