@@ -33,6 +33,8 @@
 #define RXLED0			PORTB |= (1<<0)
 #define RXLED1			PORTB &= ~(1<<0)
 
+#define NUM_ANALOG_INPUTS 12
+
 static const uint8_t SDA = 2;
 static const uint8_t SCL = 3;
 
