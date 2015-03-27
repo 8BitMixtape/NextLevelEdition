@@ -27,6 +27,11 @@ If the serial port doesn't appear, see above.
 
 Strange blinking: Did you attach the LiPo battery?
 
+Bricked the board? if you choose the wrong board and upload this might happen. solder on the ISP plug and burn the bootloader. the files is in the core.
+
+for linux:
+avrdude -P /dev/ttyACM0 -b 19200 -c avrisp -p m32u4 -v -e -U flash:w:Caterina-fio.hex:i
+
 
 Pins:
 ================
