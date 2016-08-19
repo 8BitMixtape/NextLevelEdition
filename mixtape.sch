@@ -13698,7 +13698,7 @@ www.irf.com&lt;p&gt;
 <part name="JP4" library="SparkFun" deviceset="AVR_SPI_PRG_6" device="PTH" value="AVR_SPI"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
-<part name="LED2" library="SparkFun" deviceset="LED" device="0603" value="Red"/>
+<part name="LED2" library="SparkFun" deviceset="LED" device="0603" value="Blue"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
@@ -13728,7 +13728,7 @@ www.irf.com&lt;p&gt;
 <part name="UVCC1" library="SparkFun" deviceset="3.3V" device="" value="USB_VCC"/>
 <part name="GND26" library="SparkFun" deviceset="GND" device=""/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
-<part name="LED4" library="SparkFun" deviceset="LED" device="0603" value="Blue"/>
+<part name="LED4" library="SparkFun" deviceset="LED" device="0603" value="Red"/>
 <part name="GND27" library="SparkFun" deviceset="GND" device=""/>
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="22"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="22"/>
@@ -13738,7 +13738,7 @@ www.irf.com&lt;p&gt;
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
-<part name="LED3" library="SparkFun" deviceset="LED" device="0603" value="Red"/>
+<part name="LED3" library="SparkFun" deviceset="LED" device="0603" value="Green"/>
 <part name="GND31" library="SparkFun" deviceset="GND" device=""/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND32" library="SparkFun" deviceset="GND" device=""/>
